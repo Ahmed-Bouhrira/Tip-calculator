@@ -93,6 +93,58 @@ body {
   font-size: 1.5rem;
 }
 
+.input .inp-text {
+  background-color: #f4fafa;
+  border: none;
+  width: 100%;
+  border-radius: 0.5rem;
+  font-family: "Space Mono", monospace;
+  color: #00494d;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: right;
+  padding: 0.5rem;
+}
+
+.input .inp-text:focus {
+  outline: none;
+  border: 2px solid #26c0ab;
+}
+
+.input .inp-wrapper {
+  position: relative;
+}
+
+.input .inp-wrapper img {
+  position: absolute;
+  left: 2rem;
+  top: 1rem;
+}
+
+.input .btn-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1.5rem;
+  border: 1px solid black;
+}
+
+.input .btn-wrapper .btn {
+  width: 46%;
+  text-align: center;
+  background-color: #00494d;
+  color: white;
+  font-size: 2rem;
+}
+
 .output {
   background-color: #00494d;
   width: 100%;

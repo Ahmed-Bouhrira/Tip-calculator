@@ -41,6 +41,45 @@
       font-size: 1.5rem;
     }
   }
+  .inp-text {
+    background-color: $Light-grayish-cyan-2;
+    border: none;
+    width: 100%;
+    border-radius: 0.5rem;
+    font-family: "Space Mono", monospace;
+    color: $Very-dark-cyan;
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: right;
+    padding: 0.5rem;
+    &:focus {
+      outline: none;
+      border: 2px solid $strong-cyan;
+    }
+  }
+  .inp-wrapper {
+    position: relative;
+    img {
+      position: absolute;
+      left: 2rem;
+      top: 1rem;
+    }
+  }
+  .btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    border: 1px solid black;
+    .btn {
+      width: 46%;
+      text-align: center;
+      background-color: $Very-dark-cyan;
+      color: $White;
+      font-size: 2rem;
+    }
+  }
 }
 .output {
   background-color: $Very-dark-cyan;
